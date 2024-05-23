@@ -17,6 +17,3 @@ cd ~/
 git clone --depth=1 https://github.com/bluez/bluez.git
 gcc -o bdaddr ~/bluez/tools/bdaddr.c ~/bluez/src/oui.c -I ~/bluez -lbluetooth
 sudo cp bdaddr /usr/local/bin/
-
-git clone https://github.com/pentestfunctions/BlueDucky.git
-cd BlueDucky
