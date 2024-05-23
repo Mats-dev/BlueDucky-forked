@@ -56,7 +56,7 @@ sudo cp bdaddr /usr/local/bin/
 
 ## Running BlueDucky
 ```bash
-git clone [https://github.com/Mats-dev/BlueDucky-forked.git]
+git clone https://github.com/Mats-dev/BlueDucky-forked.git
 cd BlueDucky
 sudo hciconfig hci0 up
 python3 BlueDucky.py
